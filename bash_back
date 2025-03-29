@@ -1,0 +1,8 @@
+# Create backend directory
+mkdir backend
+cd backend
+npm init -y
+npm install express typescript ts-node prisma @prisma/client zod cors bcryptjs jsonwebtoken dotenv
+npm install -D @types/express @types/cors @types/bcryptjs @types/jsonwebtoken @types/node nodemon
+npx tsc --init
+npx prisma init
