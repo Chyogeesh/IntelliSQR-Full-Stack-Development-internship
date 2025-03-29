@@ -168,3 +168,86 @@ fullstack-intern-assignment/
 │   ├── README.md
 │   └── tsconfig.json
 └── README.md
+
+
+# Frontend Application
+
+This is a React-based frontend application built with TypeScript, React Query, and React Hook Form.
+
+## Features
+- User authentication (login/register)
+- Form validation with Zod
+- API integration with React Query
+- Error handling
+
+## Technologies
+- React 18
+- TypeScript
+- React Query
+- React Hook Form
+- Zod
+- Axios
+- React Router
+
+## Setup
+1. Clone the repository
+2. Navigate to the frontend directory: `cd frontend`
+3. Install dependencies: `npm install`
+4. Create a `.env` file based on `.env.example`
+5. Start the development server: `npm run dev`
+
+## Scripts
+- `dev`: Start development server
+- `build`: Build for production
+- `lint`: Run ESLint
+- `preview`: Preview production build
+
+
+# Backend Server
+
+Node.js backend with Express, Prisma, and TypeScript.
+
+## Features
+- User authentication
+- JWT token generation
+- Data validation
+- Error handling
+
+## Technologies
+- Node.js
+- Express
+- TypeScript
+- Prisma
+- Zod
+- Bcrypt
+- JSON Web Tokens
+
+## Setup
+1. Clone the repository
+2. Navigate to the backend directory: `cd backend`
+3. Install dependencies: `npm install`
+4. Create a `.env` file based on `.env.example`
+5. Run database migrations: `npx prisma migrate dev`
+6. Start the server: `npm run dev`
+
+## Scripts
+- `dev`: Start development server with nodemon
+- `build`: Compile TypeScript
+- `start`: Start production server
+
+
+# Full-Stack Intern Assignment
+
+This repository contains both frontend and backend implementations for the full-stack assignment.
+
+## Project Structure
+- `frontend/`: React + TypeScript application
+- `backend/`: Node.js + Express + Prisma server
+
+## Setup
+1. Clone the repository
+2. Follow the setup instructions in both frontend and backend READMEs
+3. Start both servers to run the full application
+
+## Video Demonstration
+[Link to Google Drive video demonstration](#)
